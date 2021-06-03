@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "ngx-mat-intl-tel-input": [
-        "dist/ngx-mat-intl-tel-input"
+      "ngx-11-mat-intl-tel-input": [
+        "dist/ngx-11-mat-intl-tel-input"
       ],
-      "ngx-mat-intl-tel-input/*": [
-        "dist/ngx-mat-intl-tel-input/*"
+      "ngx-11-mat-intl-tel-input/*": [
+        "dist/ngx-11-mat-intl-tel-input/*"
       ]
     }
   },

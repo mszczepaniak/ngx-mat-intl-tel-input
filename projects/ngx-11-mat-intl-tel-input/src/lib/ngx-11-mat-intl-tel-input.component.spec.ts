@@ -1,7 +1,7 @@
 import { MatDividerModule } from '@angular/material/divider';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxMatIntlTelInputComponent } from './ngx-mat-intl-tel-input.component';
+import { NgxMatIntlTelInputComponent } from './ngx-11-mat-intl-tel-input.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';

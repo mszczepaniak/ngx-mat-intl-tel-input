@@ -1,7 +1,7 @@
 import {AfterViewInit, Component, ViewChild} from '@angular/core';
 import {FormGroup, FormControl, Validators} from '@angular/forms';
 import {FormBuilder} from '@angular/forms';
-import {NgxMatIntlTelInputComponent} from '../../../ngx-mat-intl-tel-input/src/lib/ngx-mat-intl-tel-input.component';
+import {NgxMatIntlTelInputComponent} from '../../../ngx-11-mat-intl-tel-input/src/lib/ngx-11-mat-intl-tel-input.component';
 
 
 @Component({

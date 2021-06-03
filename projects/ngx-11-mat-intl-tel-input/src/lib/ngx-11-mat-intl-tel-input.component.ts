@@ -18,7 +18,7 @@ import {
 
 import {FormGroupDirective, NG_VALIDATORS, NgControl, NgForm} from '@angular/forms';
 import {CountryCode, Examples} from './data/country-code';
-import {phoneNumberValidator} from './ngx-mat-intl-tel-input.validator';
+import {phoneNumberValidator} from './ngx-11-mat-intl-tel-input.validator';
 import {Country} from './model/country.model';
 import {PhoneNumberFormat} from './model/phone-number-format.model';
 import {AsYouType, CountryCode as CC, E164Number, getExampleNumber, parsePhoneNumberFromString, PhoneNumber} from 'libphonenumber-js';
@@ -47,9 +47,9 @@ const _NgxMatIntlTelInputMixinBase: CanUpdateErrorStateCtor & typeof NgxMatIntlT
 
 @Component({
   // tslint:disable-next-line:component-selector
-  selector: 'ngx-mat-intl-tel-input',
-  templateUrl: './ngx-mat-intl-tel-input.component.html',
-  styleUrls: ['./ngx-mat-intl-tel-input.component.css'],
+  selector: 'ngx-11-mat-intl-tel-input',
+  templateUrl: './ngx-11-mat-intl-tel-input.component.html',
+  styleUrls: ['./ngx-11-mat-intl-tel-input.component.css'],
   providers: [
     CountryCode,
     {provide: MatFormFieldControl, useExisting: NgxMatIntlTelInputComponent},
@@ -96,7 +96,7 @@ export class NgxMatIntlTelInputComponent extends _NgxMatIntlTelInputMixinBase
   private _disabled = false;
   stateChanges = new Subject<void>();
   focused = false;
-  @HostBinding() id = `ngx-mat-intl-tel-input-${NgxMatIntlTelInputComponent.nextId++}`;
+  @HostBinding() id = `ngx-11-mat-intl-tel-input-${NgxMatIntlTelInputComponent.nextId++}`;
   describedBy = '';
   phoneNumber: E164Number = '';
   allCountries: Array<Country> = [];

@@ -1,5 +1,5 @@
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgxMatIntlTelInputModule } from './../../../ngx-mat-intl-tel-input/src/lib/ngx-mat-intl-tel-input.module';
+import { NgxMatIntlTelInputModule } from './../../../ngx-11-mat-intl-tel-input/src/lib/ngx-11-mat-intl-tel-input.module';
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
