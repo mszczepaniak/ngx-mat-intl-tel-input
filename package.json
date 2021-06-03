@@ -15,7 +15,7 @@
     "copy-readme": "cp ./README.md ./dist/ngx-mat-intl-tel-input",
     "copy-files": "npm run copy-license && npm run copy-readme"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^11.0.3",
     "@angular/cdk": "^11.0.2",
